@@ -40,8 +40,7 @@
         "./skills/web-artifacts-builder",
         "./skills/webapp-testing"
       ]
-    }
-    ,
+    },
     {
       "name": "claude-api",
       "description": "Claude API and SDK documentation skill for building LLM-powered applications",
@@ -67,6 +66,25 @@
       "strict": false,
       "skills": [
         "./skills/discernment-nudge"
+      ]
+    },
+    {
+      "name": "console-skill",
+      "description": "Eleven skills for porting PlayStation 2 games you own to native PC with PS2Recomp, then modding them (from github.com/Jakeschincariol/console-skill, MIT)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/console-anywhere",
+        "./skills/console-backend",
+        "./skills/console-controller",
+        "./skills/console-graphics",
+        "./skills/console-levels",
+        "./skills/console-mod",
+        "./skills/console-physics",
+        "./skills/console-reverse",
+        "./skills/console-saves",
+        "./skills/console-sound",
+        "./skills/console-tester"
       ]
     }
   ]
